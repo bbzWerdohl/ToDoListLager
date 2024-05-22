@@ -44,12 +44,12 @@ const defaultData = [
         title: "Projekt 'Der Trip nach Norwegen'",
         beschreibung: "Gesundheits- Förderprogramm wo Teilnehmer Schritte sammeln und an einem virtuelle Trip nach Norwegen teilnehmen",
         created_at: "08.04.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "bbz",
-        task_status_inWork: 'Alle',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Alle',
+        completed_at: '07.05.2024'
     },
     {
         id: 4,
@@ -187,12 +187,12 @@ const defaultData = [
         title: "ToDo Liste Lager",
         beschreibung: "Erstellen ToDo liste für abteilung Lager",
         created_at: "15.04.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Elvis",
-        task_status_inWork: 'Elvis',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Elvis',
+        completed_at: '17.05.2024'
     },
     {
         id: 15,
@@ -213,12 +213,12 @@ const defaultData = [
         title: "bbz Profile GitHub",
         beschreibung: "Erstellen bbz Profil im GitHub, ToDo Liste zu nutzen und verwalten",
         created_at: "30.04.2024",
-        isFertig: false,
+        isFertig: true,
         isImArbeit: false,
         creator: "Elvis",
         task_status_inWork: '',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_completed: 'Elvis',
+        completed_at: '17.05.2024'
     },
     {
         id: 17,
@@ -239,12 +239,12 @@ const defaultData = [
         title: "EuropaWahl 2024",
         beschreibung: "Präsentationen fertigen über Europa Wahl",
         created_at: "06.05.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Herr Schmack",
-        task_status_inWork: 'alle Teilnähmer',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'alle Teilnähmer',
+        completed_at: '17.05.2024'
     },
     {
         id: 19,
@@ -252,12 +252,12 @@ const defaultData = [
         title: "Europa Karte",
         beschreibung: "Europa karte zu erstellen",
         created_at: "13.05.2024",
-        isFertig: false,
+        isFertig: true,
         isImArbeit: false,
         creator: "Frau Germowitz",
         task_status_inWork: '',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_completed: 'Frau Sen',
+        completed_at: '17.05.2024'
     },
     {
         id: 21,
@@ -265,12 +265,12 @@ const defaultData = [
         title: "Eiropäische Politische system",
         beschreibung: "Präsentationen über Politische system des Eiropäische Union",
         created_at: "06.05.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Herr Gester",
-        task_status_inWork: 'Dominik Gester, Sven Nau',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Dominik Gester, Sven Nau',
+        completed_at: '17.05.2024'
     },
     {
         id: 22,
@@ -282,7 +282,7 @@ const defaultData = [
         isImArbeit: false,
         creator: "Elvis",
         task_status_inWork: '',
-        task_status_completed: 'Elvis, Sen',
+        task_status_completed: 'Elvis, Frau Sen',
         completed_at: '06.05.2024'
     },
     {
@@ -310,6 +310,19 @@ const defaultData = [
         task_status_inWork: '',
         task_status_completed: 'Elvis',
         completed_at: '10.05.2024'
+    },
+    {
+        id: 25,
+        categorie: "Kiosk",
+        title: "Artikelliste aktualisieren",
+        beschreibung: "Aktualisierung der Artikelliste",
+        created_at: "15.05.2024",
+        isFertig: true,
+        isImArbeit: false,
+        creator: "Elvis",
+        task_status_inWork: '',
+        task_status_completed: 'Elvis',
+        completed_at: '16.05.2024'
     },
 ];
 
