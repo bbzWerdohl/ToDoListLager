@@ -5,12 +5,12 @@ const defaultData = [
         title: "Katalog erstellen",
         beschreibung: "Im Hyreka aus dem Dateien, einem Katalog mit Bildern erstellen",
         created_at: "22.04.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Herr Schmack",
-        task_status_inWork: 'Elvis',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Elvis',
+        completed_at: '27.05.2024'
     },
     {
         id: 1,
@@ -330,12 +330,12 @@ const defaultData = [
         title: "Hyreka aktualisieren",
         beschreibung: "Hyreka client und falls nöttig Datenbank aktualisieren(Update)",
         created_at: "24.05.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Elvis",
-        task_status_inWork: 'Elvis',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Elvis',
+        completed_at: '27.05.2024'
     },
 ];
 
