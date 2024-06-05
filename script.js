@@ -295,8 +295,8 @@ const defaultData = [
         isImArbeit: false,
         creator: "Herr Schmack",
         task_status_inWork: '',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_completed: 'Elvis',
+        completed_at: '04.06.2024'
     },
     {
         id: 24,
