@@ -343,12 +343,12 @@ const defaultData = [
         title: "Rechnenlen",
         beschreibung: "Wie viel kostet ein Kaffee?",
         created_at: "20.06.2024",
-        isFertig: false,
+        isFertig: true,
         isImArbeit: false,
         creator: "Dr. Prof. Patryk Zieba",
         task_status_inWork: '',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_completed: 'Dr. Prof. Patryk Zieba',
+        completed_at: '20.06.2024'
     },
 ];
 
