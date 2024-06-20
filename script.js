@@ -340,7 +340,7 @@ const defaultData = [
     {
         id: 27,
         categorie: "Kiosk",
-        title: "Rechnenlen",
+        title: "Rechnen",
         beschreibung: "Wie viel kostet ein Kaffee?",
         created_at: "20.06.2024",
         isFertig: true,
