@@ -337,6 +337,19 @@ const defaultData = [
         task_status_completed: 'Elvis',
         completed_at: '27.05.2024'
     },
+    {
+        id: 27,
+        categorie: "Kiosk",
+        title: "Rechnenlen",
+        beschreibung: "Wie viel kostet ein Kaffee?",
+        created_at: "20.06.2024",
+        isFertig: false,
+        isImArbeit: false,
+        creator: "Dr. Prof. Patryk Zieba",
+        task_status_inWork: '',
+        task_status_completed: '',
+        completed_at: ''
+    },
 ];
 
 function saveDataToLocalStorage(data) {
