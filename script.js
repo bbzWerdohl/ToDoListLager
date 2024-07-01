@@ -291,7 +291,7 @@ const defaultData = [
         title: "Inventur Monat Mai 2024",
         beschreibung: "Aufnahme der Artikel im Lager",
         created_at: "14.05.2024",
-        isFertig: false,
+        isFertig: true,
         isImArbeit: false,
         creator: "Herr Schmack",
         task_status_inWork: '',
@@ -349,6 +349,19 @@ const defaultData = [
         task_status_inWork: '',
         task_status_completed: 'Dr. Prof. Patryk Zieba',
         completed_at: '20.06.2024'
+    },
+    {
+        id: 28,
+        categorie: "Lager",
+        title: "Inventur Monat Juni 2024",
+        beschreibung: "Aufnahme der Artikel im Lager",
+        created_at: "14.05.2024",
+        isFertig: false,
+        isImArbeit: true,
+        creator: "Elvis",
+        task_status_inWork: 'Elvis',
+        task_status_completed: '',
+        completed_at: ''
     },
 ];
 
