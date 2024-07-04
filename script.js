@@ -356,12 +356,12 @@ const defaultData = [
         title: "Inventur Monat Juni 2024",
         beschreibung: "Aufnahme der Artikel im Lager",
         created_at: "14.05.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Elvis",
-        task_status_inWork: 'Elvis',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Elvis',
+        completed_at: '03.07.2024'
     },
 ];
 
