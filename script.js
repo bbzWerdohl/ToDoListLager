@@ -200,12 +200,12 @@ const defaultData = [
         title: "ToDo Liste Elektro",
         beschreibung: "Erstellen ToDo liste für Elektro Abteilung",
         created_at: "30.04.2024",
-        isFertig: false,
-        isImArbeit: true,
+        isFertig: true,
+        isImArbeit: false,
         creator: "Elvis",
-        task_status_inWork: 'Elvis',
-        task_status_completed: '',
-        completed_at: ''
+        task_status_inWork: '',
+        task_status_completed: 'Elvis',
+        completed_at: '05.06.2024'
     },
     {
         id: 16,
